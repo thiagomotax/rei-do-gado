@@ -1,0 +1,22 @@
+#criar um repositório no diretório do projeto Rei do Gado
+git init
+
+#adicionando todos os arquivos para staging area
+git add .
+
+#adicionando os arquivos no repositório local
+git commit -m “transição de arquivos para o repositório”
+
+#conectando ao repositório remoto
+git remote add origin https://github.com/thiagomotax/rei-do-gado.git
+
+#puxando os dados do repositório remoto(por padrão)
+git pull origin master
+
+#enviando os arquivos para o repositório remoto
+git push origin master
+
+
+#criando uma linha de desenvolvimento taggeada com nome
+git branch leonardo
+git push origin leonardo

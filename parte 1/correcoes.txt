@@ -1,0 +1,22 @@
+gantt:
+
+adicionar documentação em cada sprint
+adicionar teste em cada sprint
+
+
+LIGAR AS CHAVES
+
+
+
+
+
+classe:
+
+tabela atividade
+tabela patrimonio(trocar pra equipamento)
+tabela gerenciamento
+tabela checkin
+todo substantivo vira tabela
+multiplicidade
+nome da associação
+extends do pagamento
