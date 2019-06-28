@@ -5,7 +5,7 @@ git init
 git add .
 
 #adicionando os arquivos no repositório local
-git commit -m “transição de arquivos para o repositório”
+git commit -m "transição de arquivos para o repositório"
 
 #conectando ao repositório remoto
 git remote add origin https://github.com/thiagomotax/rei-do-gado.git
@@ -16,7 +16,9 @@ git pull origin master
 #enviando os arquivos para o repositório remoto
 git push origin master
 
+git checkout -b removeDiagAtividade
+git add .
+git commit -m "atividade old removido"
+git push origin removeDiagAtividade
 
-#criando uma linha de desenvolvimento taggeada com nome
-git branch leonardo
-git push origin leonardo
+PULL REQUEST FEITO, MERGE
