@@ -22,3 +22,4 @@ git commit -m "atividade old removido"
 git push origin removeDiagAtividade
 
 PULL REQUEST FEITO, MERGE
+
